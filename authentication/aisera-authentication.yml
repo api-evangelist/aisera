@@ -1,0 +1,60 @@
+generated: '2026-07-17'
+method: searched
+source: https://docs.aisera.com/apis/apis.md
+docs: https://docs.aisera.com/apis/apis/ingestion-apis.md
+note: >-
+  Aisera publishes no OpenAPI specification; this profile is captured from the
+  developer documentation for the Ingestion, Data Source Monitoring, and User
+  Provisioning APIs. API calls are tenant-scoped against
+  https://<tenant>.api.aisera.cloud and https://<company>.login.aisera.cloud.
+summary:
+  types: [oauth2, http, apiKey]
+  api_key_in: [header]
+  api_key_names: [x-app-token]
+  http_schemes: [basic, bearer]
+  oauth2_flows: [password]
+schemes:
+  - name: AppToken
+    type: apiKey
+    in: header
+    parameter_name: x-app-token
+    description: >-
+      Tenant/app token that identifies the Aisera app and its System-of-Record
+      data source. Retrieved from Settings > AiseraGPT application details under
+      "Integration Information" (or provided by the Aisera team for User
+      Provisioning). Sent alongside the Authorization header.
+    used_by: [Ingestion APIs, User Provisioning APIs]
+  - name: OAuth2Password
+    type: oauth2
+    flow: password
+    token_url: https://<tenant>.api.aisera.cloud/tenant-users/oauth2/token
+    grant_type: password
+    token_ttl_seconds: 3600
+    description: >-
+      Bearer access token obtained via OAuth 2.0 Resource Owner Password
+      Credentials grant. POST client_id (app token), username and password
+      (service-account credentials); response returns access_token and
+      expires_in (3600). Presented as "Authorization: Bearer <access_token>".
+    used_by: [Ingestion APIs]
+  - name: BasicAuth
+    type: http
+    scheme: basic
+    description: >-
+      HTTP Basic authentication using Aisera platform login credentials
+      (base64-encoded). Used by the Data Source Ingestion Monitoring API and
+      accepted by the User Provisioning APIs.
+    used_by: [Data Source Ingestion Monitoring API, User Provisioning APIs]
+  - name: BearerAuth
+    type: http
+    scheme: bearer
+    description: >-
+      Bearer access token (from the OAuth2 password flow) presented in the
+      Authorization header.
+    used_by: [Ingestion APIs, User Provisioning APIs]
+integration_auth_note: >-
+  Separately, Aisera supports a broad set of auth types for OUTBOUND connectors
+  to third-party systems (Basic, OAuth 2.0 authorization-code / password /
+  client-credentials, Basic-to-Bearer, Token, JWT, OIDC, OAuth Custom, PAM,
+  No-Auth). Those configure Aisera's data-source integrations, not inbound API
+  authentication, and are documented under
+  https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/supported-auth-types-for-custom-integrations.md
