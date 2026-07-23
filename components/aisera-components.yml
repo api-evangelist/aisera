@@ -1,0 +1,33 @@
+generated: '2026-07-17'
+method: searched
+source: https://docs.aisera.com/aiseragpt/embed-your-webchat-channel.md
+note: >-
+  Client-side / embeddable surfaces Aisera ships for deploying its conversational
+  AI into customer properties. Distinct from server-side SDKs (none published).
+families:
+  - family: Webchat
+    kind: embeddable-widget
+    description: >-
+      Embeddable Aisera Webchat channel dropped into any web property, with SSO
+      (SAML / OAuth 2.0 via Auth0), brand styling, and a customizable menu/policy.
+    docs:
+      - https://docs.aisera.com/aiseragpt/embed-your-webchat-channel.md
+      - https://docs.aisera.com/aisera-platform/channels/aisera-webchat.md
+      - https://docs.aisera.com/overview-of-aisera/getting-started-guide/styling-the-aisera-webchat.md
+  - family: Copilot
+    kind: embedded-assistant
+    description: >-
+      Aisera Copilot surface embedded into agent/desktop workflows (Ticket AI
+      Agent Assist, Agent Assist window).
+    docs:
+      - https://docs.aisera.com/aisera-platform/channels/aisera-copilot.md
+      - https://docs.aisera.com/aisera-platform/channels/ticket-ai-agent-assist.md
+  - family: Form Intercept
+    kind: embedded-widget
+    description: Intercepts web forms to deflect submissions into the Aisera bot.
+    docs:
+      - https://docs.aisera.com/aisera-platform/channels/form-intercept.md
+loaders: []
+loader_note: >-
+  Embed/loader snippets are provisioned per tenant/channel from the Aisera Admin
+  UI rather than a public CDN library; no public loader package is documented.

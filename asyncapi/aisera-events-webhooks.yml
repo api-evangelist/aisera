@@ -1,0 +1,34 @@
+generated: '2026-07-17'
+method: searched
+source: https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/event-studio.md
+spec_type: Webhooks
+note: >-
+  Aisera exposes an event/webhook surface but publishes no AsyncAPI document.
+  Two directions are documented: (1) INBOUND webhooks — the Ingestion APIs accept
+  data "from any external system that supports webhooks"; (2) OUTBOUND event
+  triggers — Event Studio fires workflows on system events and can notify
+  external channels.
+surfaces:
+  - name: Event Studio
+    direction: outbound
+    description: >-
+      Configure event-based triggers that run workflows and dispatch
+      notifications when platform events (e.g. ticket events) occur.
+    docs:
+      - https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/event-studio.md
+      - https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/event-studio/system-triggers.md
+      - https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/event-studio/notification-channels-for-triggers.md
+  - name: Ingestion webhooks
+    direction: inbound
+    description: >-
+      Send data directly into the Aisera platform from any external system that
+      supports webhooks (Knowledge Articles, Requests).
+    docs:
+      - https://docs.aisera.com/apis/apis/ingestion-apis.md
+  - name: Ticket Concierge (Event Studio)
+    direction: outbound
+    description: Event-Studio-driven ticket concierge automation against ServiceNow and other ITSM systems.
+    docs:
+      - https://docs.aisera.com/aisera-platform/ticket-operations/ticket-concierge-tc-with-event-studio.md
+asyncapi_spec: none
+asyncapi_note: No published AsyncAPI/event-catalog document; not fabricated.

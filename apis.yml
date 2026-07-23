@@ -1,8 +1,17 @@
 aid: aisera
 name: Aisera
-description: Aisera is a company surfaced as a portfolio company of menlo-ventures, norwest-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Aisera is an enterprise agentic AI platform that builds, deploys, and orchestrates
+  AI agents and assistants for IT service management, HR, finance, procurement, and
+  customer service. The AiseraGPT platform combines domain-specific LLMs, conversational
+  AI, enterprise/neural search, knowledge generation, and AI workflow automation to
+  autonomously resolve requests, deflect tickets, and serve knowledge across channels
+  (Webchat, Slack, MS Teams, email, IVR, and more). For developers, Aisera exposes
+  tenant-scoped REST APIs — Ingestion APIs for pushing knowledge and requests into the
+  platform, a Data Source Ingestion Monitoring API, SCIM-style User Provisioning APIs,
+  and a Conversation & Workflows API with WebSocket — plus Event Studio for event-driven
+  workflows and a large library of data-source connectors. Aisera was acquired by
+  Automation Anywhere.
 url: https://raw.githubusercontent.com/api-evangelist/aisera/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,17 +20,153 @@ x-backed-by:
 - norwest-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-acquired-by: automation-anywhere
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
+image: https://aisera.com/wp-content/uploads/2025/06/homepage-social-card.png
 tags:
 - Company
-apis: []
+- Agentic AI
+- Conversational AI
+- IT Service Management
+- Customer Service
+- Enterprise Search
+- AI Copilot
+- Knowledge Management
+- Workflow Automation
+- Large Language Models
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+apis:
+- name: Aisera Ingestion APIs
+  description: >-
+    Push data directly into the Aisera platform from any external system that supports
+    webhooks — Knowledge Articles and Requests. Authenticates with an x-app-token header
+    plus an OAuth 2.0 password-grant bearer token.
+  humanURL: https://docs.aisera.com/apis/apis/ingestion-apis.md
+  baseURL: https://tenant.api.aisera.cloud
+  tags:
+  - Ingestion
+  - Knowledge
+  - Webhooks
+  properties:
+  - type: Documentation
+    url: https://docs.aisera.com/apis/apis/ingestion-apis.md
+  - type: Authentication
+    url: authentication/aisera-authentication.yml
+- name: Aisera Data Source Ingestion Monitoring API
+  description: >-
+    GET /dsexecution returns ingestion-pipeline job status (SUCCEEDED / PENDING / RUNNING
+    / FAILED / KILLED) and run metrics for a tenant's data source. Uses HTTP Basic auth.
+  humanURL: https://docs.aisera.com/apis/apis/data-source-ingestion-monitoring-api.md
+  baseURL: https://tenant.api.aisera.cloud
+  tags:
+  - Monitoring
+  - Ingestion
+  properties:
+  - type: Documentation
+    url: https://docs.aisera.com/apis/apis/data-source-ingestion-monitoring-api.md
+- name: Aisera User Provisioning APIs
+  description: >-
+    SCIM-style user lifecycle endpoints — /scim/provision-user, /scim/update-user and
+    /scim/de-provision-user — for managing Aisera platform users. Basic or Bearer auth
+    plus x-app-token.
+  humanURL: https://docs.aisera.com/apis/apis/user-provisioning-apis.md
+  baseURL: https://company.login.aisera.cloud
+  tags:
+  - User Provisioning
+  - SCIM
+  - Identity
+  properties:
+  - type: Documentation
+    url: https://docs.aisera.com/apis/apis/user-provisioning-apis.md
+  - type: Authentication
+    url: authentication/aisera-authentication.yml
+- name: Aisera Conversation & Workflows API and WebSocket
+  description: >-
+    Build custom conversational interfaces for AiseraGPT applications — decoration,
+    NLP/NLU processing, slot filling, context management, and notifications — over REST
+    and WebSocket.
+  humanURL: https://docs.aisera.com/apis/apis/conversation-api-and-websocket.md
+  baseURL: https://tenant.api.aisera.cloud
+  tags:
+  - Conversation
+  - WebSocket
+  - Workflows
+  properties:
+  - type: Documentation
+    url: https://docs.aisera.com/apis/apis/conversation-api-and-websocket.md
 common:
 - type: Website
   url: https://aisera.com
+- type: DeveloperPortal
+  url: https://docs.aisera.com
+- type: Documentation
+  url: https://docs.aisera.com
+- type: APIReference
+  url: https://docs.aisera.com/apis/apis.md
+- type: GettingStarted
+  url: https://docs.aisera.com/overview-of-aisera/getting-started-guide.md
+- type: Blog
+  url: https://aisera.com/blog/
+- type: StatusPage
+  url: https://status.aisera.com
+- type: ChangeLog
+  url: https://docs.aisera.com/product-release-notes
+- type: Deprecation
+  url: https://docs.aisera.com/aisera-platform/llm-operations/understanding-llm-capabilities/llm-lifecycle/bot-deprecation/bot-deprecation-guidelines.md
+- type: PrivacyPolicy
+  url: https://aisera.com/privacy-policy/
+- type: TrustCenter
+  url: https://trust.aisera.com/
+- type: Compliance
+  url: https://www.automationanywhere.com/products/security
+- type: Security
+  url: https://www.automationanywhere.com/legal/vulnerability-disclosure-policy
+- type: LLMsTxt
+  url: llms/aisera-llms.txt
+- type: Authentication
+  url: authentication/aisera-authentication.yml
+- type: Conventions
+  url: conventions/aisera-conventions.yml
+- type: ErrorCatalog
+  url: errors/aisera-problem-types.yml
+- type: Lifecycle
+  url: lifecycle/aisera-lifecycle.yml
+- type: ChangeLog
+  url: changelog/aisera-changelog.yml
+- type: Conformance
+  url: conformance/aisera-conformance.yml
+- type: DomainSecurity
+  url: security/aisera-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/aisera-vulnerability-disclosure.yml
+- type: TrustCenter
+  url: security/aisera-trust-center.yml
+- type: Components
+  url: components/aisera-components.yml
+- type: DataModel
+  url: data-model/aisera-data-model.yml
+- type: Webhooks
+  url: asyncapi/aisera-events-webhooks.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

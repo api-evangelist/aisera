@@ -1,0 +1,48 @@
+generated: '2026-07-17'
+method: searched
+source: https://docs.aisera.com/apis/apis.md
+note: >-
+  Cross-cutting request/response semantics for the Aisera platform APIs, captured
+  from the developer documentation. Aisera publishes no OpenAPI spec, so these
+  conventions are documented rather than derived from a machine-readable contract.
+authentication:
+  styles: [oauth2-password-bearer, http-basic, app-token-header]
+  app_token_header: x-app-token
+  bearer_header: Authorization
+  cross_ref: authentication/aisera-authentication.yml
+hosting:
+  model: multi-tenant
+  api_host: https://<tenant>.api.aisera.cloud
+  login_host: https://<company>.login.aisera.cloud
+  note: Hosts are tenant/company scoped; there is no single shared public base URL.
+idempotency:
+  supported: false
+  note: >-
+    No idempotency-key header or de-duplication contract is documented for the
+    inbound APIs. (Data ingestion de-duplication exists at the platform level for
+    ticket alerts, but that is not a request-level API idempotency guarantee.)
+pagination:
+  documented: false
+  note: Inbound API pagination is not documented in the public API reference.
+versioning:
+  scheme: release-train
+  cadence: bi-weekly
+  current_release: '2026-07-15'
+  changelog: https://docs.aisera.com/product-release-notes/2026/aisera-product-release-notes-july-15-2026.md
+  api_versioning: >-
+    Individual APIs use named revisions where applicable (e.g. "List Approvals
+    V2"); the platform itself ships on dated bi-weekly release notes.
+error_envelope:
+  style: http-status-class
+  classes:
+    - {range: 2xx, meaning: success}
+    - {range: 4xx, meaning: request error}
+    - {range: 5xx, meaning: internal system error}
+  cross_ref: errors/aisera-problem-types.yml
+content_type: application/json
+events:
+  surface: Event Studio + inbound webhook ingestion
+  cross_ref: asyncapi/aisera-events-webhooks.yml
+rate_limiting:
+  documented: false
+  note: No public rate-limit signaling headers are documented.

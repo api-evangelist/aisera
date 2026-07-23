@@ -1,0 +1,44 @@
+generated: '2026-07-17'
+method: searched
+source: https://docs.aisera.com/product-release-notes
+scheme: dated-release-notes
+cadence: bi-weekly
+current_version: '2026-07-15'
+index_url: https://docs.aisera.com/product-release-notes
+entries:
+  - version: '2026-07-15'
+    date: '2026-07-15'
+    url: https://docs.aisera.com/product-release-notes/2026/aisera-product-release-notes-july-15-2026.md
+    breaking: false
+    removals:
+      - "Removed 'Sanitize Hyperflow Prompt' setting (auto HTML->Markdown detection)."
+    additions:
+      - IVR Post-Welcome Workflow (run a custom workflow after the bot greeting).
+      - Neural Search summary backfill job + model selection (gpt-5.1 / llama-3.3-70B).
+      - Restricted Privilege Level role-based access control.
+      - List Approvals V2 returns full approval context and configured fields.
+    highlights:
+      - Enhanced user/contextual awareness in bot responses.
+      - Remote Executor optional tenantId validation.
+  - version: '2026-06-16'
+    date: '2026-06-16'
+    url: https://docs.aisera.com/product-release-notes/2026/aisera-product-release-notes-june-16-2026.md
+    breaking: false
+    additions:
+      - ConvAI 2.0 contextual fallback responses.
+      - FreshDesk connector (full KB hierarchy).
+      - Tenant & app-level default LLM configuration for Hyperflows.
+      - Bulk activate/deactivate/delete of Workflows and Hyperflows.
+    highlights:
+      - OAuth variables encrypted during execution and masked in logs.
+      - Box connector metadata extraction from .boxnote files.
+  - version: '2026-05-26'
+    date: '2026-05-26'
+    url: https://docs.aisera.com/product-release-notes/2026/aisera-product-release-notes-may-26-2026.md
+    breaking: false
+    note: See release notes page for details.
+  - version: '2026-04-22'
+    date: '2026-04-22'
+    url: https://docs.aisera.com/product-release-notes/2026/aisera-product-release-notes-april-22-2026.md
+    breaking: false
+    note: See release notes page for details.

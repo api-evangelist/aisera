@@ -1,0 +1,30 @@
+generated: '2026-07-17'
+method: searched
+source: https://docs.aisera.com/apis/apis/ingestion-apis.md
+format: http-status-class
+note: >-
+  Aisera's API documentation describes error handling by HTTP status class rather
+  than a machine-readable RFC 9457 problem catalogue. These entries capture the
+  documented status-code semantics for the Ingestion, Data Source Monitoring and
+  User Provisioning APIs. No application/problem+json media type is documented.
+problems:
+  - status_class: 2xx
+    title: Success
+    description: The request succeeded (e.g. data accepted for ingestion).
+  - status_class: 4xx
+    title: Request error
+    description: >-
+      The request was malformed, unauthenticated, or unauthorized (e.g. missing
+      or invalid x-app-token / Authorization header, bad tenant or data-source
+      identifier, invalid body).
+  - status_class: 5xx
+    title: Internal system error
+    description: An internal Aisera platform error occurred while processing the request.
+job_status_values:
+  source: https://docs.aisera.com/apis/apis/data-source-ingestion-monitoring-api.md
+  field: ingestionPipelineStatus
+  values: [SUCCEEDED, PENDING, RUNNING, FAILED, KILLED]
+  note: >-
+    The Data Source Ingestion Monitoring API returns an ingestion-run status enum
+    (and ingestionRunError / ingestionRunMessage fields) rather than HTTP-level
+    problem details for pipeline outcomes.

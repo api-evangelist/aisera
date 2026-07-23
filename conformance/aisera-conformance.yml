@@ -1,0 +1,50 @@
+generated: '2026-07-17'
+method: searched
+source: https://www.automationanywhere.com/products/security
+note: >-
+  Aisera's own security-and-compliance page (aisera.com/platform/security-and-compliance/)
+  301-redirects to the Automation Anywhere security page following the acquisition;
+  the compliance posture below is captured from that canonical destination.
+  Standards conformance is derived from the documented auth model plus published
+  certifications; Aisera publishes no OpenAPI, so protocol conformance is asserted
+  from the developer docs.
+standards:
+  - id: oauth2
+    conforms: true
+    evidence: Ingestion APIs use an OAuth 2.0 password-grant token endpoint (/tenant-users/oauth2/token).
+  - id: oidc
+    conforms: true
+    evidence: OIDC listed among supported integration auth types; SSO via Entra ID / Okta / Auth0.
+  - id: http-basic
+    conforms: true
+    evidence: Data Source Monitoring API and User Provisioning API accept HTTP Basic auth.
+  - id: scim
+    conforms: partial
+    evidence: User Provisioning API exposes /scim/provision-user, /scim/update-user, /scim/de-provision-user (SCIM-style paths, not full SCIM 2.0 schema).
+  - id: soc2-type2
+    conforms: true
+    evidence: SOC 2 Type 2 listed on the security/compliance page.
+  - id: soc1-type2
+    conforms: true
+    evidence: SOC 1 Type 2 listed on the security/compliance page.
+  - id: iso-27001
+    conforms: true
+    evidence: ISO 27001 listed on the security/compliance page.
+  - id: iso-22301
+    conforms: true
+    evidence: ISO 22301 (business continuity) listed on the security/compliance page.
+  - id: hitrust
+    conforms: true
+    evidence: HITRUST listed on the security/compliance page.
+  - id: gdpr
+    conforms: true
+    evidence: GDPR compliance referenced on the security/compliance page.
+  - id: fips-140
+    conforms: true
+    evidence: FIPS-140 encryption referenced on the security/compliance page.
+  - id: rfc9457-problem-details
+    conforms: false
+    evidence: Errors are documented by HTTP status class; no application/problem+json contract.
+  - id: asyncapi
+    conforms: false
+    evidence: Event Studio / webhook surface exists but no AsyncAPI document is published.

@@ -1,0 +1,534 @@
+# Aisera Product Documentation
+
+## Home
+
+- [Aisera Product Documentation](https://docs.aisera.com/product-documentation/readme.md)
+
+## Aisera Gen AI Platform Overview
+
+- [Aisera Gen AI Platform Overview](https://docs.aisera.com/overview-of-aisera/aisera-gen-ai-platform-overview.md)
+- [Getting Started Guide](https://docs.aisera.com/overview-of-aisera/getting-started-guide.md)
+- [Aisera Play in Action](https://docs.aisera.com/overview-of-aisera/getting-started-guide/aisera-play-in-action.md)
+- [Glossary of Aisera Terms](https://docs.aisera.com/overview-of-aisera/getting-started-guide/glossary-of-aisera-terms.md)
+- [Tenant Configuration](https://docs.aisera.com/overview-of-aisera/getting-started-guide/glossary-of-aisera-terms/tenant-configuration.md)
+- [Add Integration (login credentials) to Tenant](https://docs.aisera.com/overview-of-aisera/getting-started-guide/glossary-of-aisera-terms/add-integration-login-credentials-to-tenant.md)
+- [Add Channel to Tenant](https://docs.aisera.com/overview-of-aisera/getting-started-guide/glossary-of-aisera-terms/add-channel-to-tenant.md)
+- [Add Data Source to Tenant](https://docs.aisera.com/overview-of-aisera/getting-started-guide/glossary-of-aisera-terms/add-data-source-to-tenant.md)
+- [Agent Assist Window](https://docs.aisera.com/overview-of-aisera/getting-started-guide/glossary-of-aisera-terms/agent-assist-window.md)
+- [Analytics](https://docs.aisera.com/overview-of-aisera/getting-started-guide/glossary-of-aisera-terms/analytics.md)
+- [Application/Bot](https://docs.aisera.com/overview-of-aisera/getting-started-guide/glossary-of-aisera-terms/application-bot.md)
+- [Agent](https://docs.aisera.com/overview-of-aisera/getting-started-guide/glossary-of-aisera-terms/application-bot/agent.md)
+- [Data Source](https://docs.aisera.com/overview-of-aisera/getting-started-guide/glossary-of-aisera-terms/application-bot/data-source.md)
+- [Add/Register Workflow](https://docs.aisera.com/overview-of-aisera/getting-started-guide/glossary-of-aisera-terms/application-bot/add-register-workflow.md)
+- [AiseraGPT Policy](https://docs.aisera.com/overview-of-aisera/getting-started-guide/glossary-of-aisera-terms/application-bot/aiseragpt-policy.md)
+- [Knowledge Generation Policy](https://docs.aisera.com/overview-of-aisera/getting-started-guide/glossary-of-aisera-terms/application-bot/knowledge-generation-policy.md)
+- [Bot Channel](https://docs.aisera.com/overview-of-aisera/getting-started-guide/glossary-of-aisera-terms/application-bot/bot-channel.md)
+- [Add Live Agent](https://docs.aisera.com/overview-of-aisera/getting-started-guide/glossary-of-aisera-terms/application-bot/add-live-agent.md)
+- [Error Handling Flow](https://docs.aisera.com/overview-of-aisera/getting-started-guide/glossary-of-aisera-terms/application-bot/error-handling-flow.md)
+- [View Conversation Messages](https://docs.aisera.com/overview-of-aisera/getting-started-guide/glossary-of-aisera-terms/application-bot/view-conversation-messages.md)
+- [View Intents](https://docs.aisera.com/overview-of-aisera/getting-started-guide/glossary-of-aisera-terms/application-bot/view-intents.md)
+- [Access Attributes](https://docs.aisera.com/overview-of-aisera/getting-started-guide/glossary-of-aisera-terms/application-bot/access-attributes.md)
+- [Audit Trail Logs](https://docs.aisera.com/overview-of-aisera/getting-started-guide/glossary-of-aisera-terms/audit-trail-logs.md)
+- [AI Automation](https://docs.aisera.com/overview-of-aisera/getting-started-guide/glossary-of-aisera-terms/ai-automation.md)
+- [AI Workbench](https://docs.aisera.com/overview-of-aisera/getting-started-guide/glossary-of-aisera-terms/ai-workbench.md)
+- [AI Discovery - CMDB](https://docs.aisera.com/overview-of-aisera/getting-started-guide/glossary-of-aisera-terms/ai-discovery-cmdb.md)
+- [AI Lens](https://docs.aisera.com/overview-of-aisera/getting-started-guide/glossary-of-aisera-terms/ai-lens.md)
+- [AI Observability](https://docs.aisera.com/overview-of-aisera/getting-started-guide/glossary-of-aisera-terms/ai-observability.md)
+- [AI Generated Documents](https://docs.aisera.com/overview-of-aisera/getting-started-guide/glossary-of-aisera-terms/ai-generated-documents.md)
+- [Campaigns](https://docs.aisera.com/overview-of-aisera/getting-started-guide/glossary-of-aisera-terms/campaigns.md)
+- [Content Generation](https://docs.aisera.com/overview-of-aisera/getting-started-guide/glossary-of-aisera-terms/content-generation.md)
+- [Event Studio](https://docs.aisera.com/overview-of-aisera/getting-started-guide/glossary-of-aisera-terms/event-studio.md)
+- [Hyperflows](https://docs.aisera.com/overview-of-aisera/getting-started-guide/glossary-of-aisera-terms/hyperflows.md)
+- [Knowledge Base Articles](https://docs.aisera.com/overview-of-aisera/getting-started-guide/glossary-of-aisera-terms/knowledge-base-articles.md)
+- [Ontology](https://docs.aisera.com/overview-of-aisera/getting-started-guide/glossary-of-aisera-terms/ontology.md)
+- [Prompts Studio](https://docs.aisera.com/overview-of-aisera/getting-started-guide/glossary-of-aisera-terms/prompts-studio.md)
+- [Requests Window](https://docs.aisera.com/overview-of-aisera/getting-started-guide/glossary-of-aisera-terms/requests-window.md)
+- [Similar Documents](https://docs.aisera.com/overview-of-aisera/getting-started-guide/glossary-of-aisera-terms/similar-documents.md)
+- [Tickets](https://docs.aisera.com/overview-of-aisera/getting-started-guide/glossary-of-aisera-terms/tickets.md)
+- [Workflows - Tenant](https://docs.aisera.com/overview-of-aisera/getting-started-guide/glossary-of-aisera-terms/workflows-tenant.md)
+- [Prerequisites](https://docs.aisera.com/overview-of-aisera/getting-started-guide/prerequisites.md)
+- [Setup Your Aisera Tenant](https://docs.aisera.com/overview-of-aisera/getting-started-guide/setup-your-aisera-tenant.md)
+- [Bot Essentials](https://docs.aisera.com/overview-of-aisera/getting-started-guide/bot-essentials.md)
+- [Who Does What?](https://docs.aisera.com/overview-of-aisera/getting-started-guide/who-does-what.md)
+- [Using the Aisera Admin UI](https://docs.aisera.com/overview-of-aisera/getting-started-guide/using-the-aisera-admin-ui.md)
+- [Styling the Aisera Webchat](https://docs.aisera.com/overview-of-aisera/getting-started-guide/styling-the-aisera-webchat.md): Customizing the Webchat Channel to fit your Brand
+- [Tour of the Documentation](https://docs.aisera.com/overview-of-aisera/tour-of-the-documentation.md)
+
+## Application/Bot Creation
+
+- [Overview of the AiseraGPT App (Bot)](https://docs.aisera.com/aiseragpt/overview-of-the-aiseragpt-app-bot.md)
+- [How to set up an AiseraGPT Bot](https://docs.aisera.com/aiseragpt/how-to-set-up-an-aiseragpt-bot.md)
+- [Configure an AiseraGPT Bot](https://docs.aisera.com/aiseragpt/how-to-set-up-an-aiseragpt-bot/configure-an-aiseragpt-bot.md)
+- [Create a Universal Bot](https://docs.aisera.com/aiseragpt/how-to-set-up-an-aiseragpt-bot/configure-an-aiseragpt-bot/create-a-universal-bot.md)
+- [Universal Bot Analytics](https://docs.aisera.com/aiseragpt/how-to-set-up-an-aiseragpt-bot/configure-an-aiseragpt-bot/create-a-universal-bot/universal-bot-analytics.md)
+- [Add a Data Source](https://docs.aisera.com/aiseragpt/how-to-set-up-an-aiseragpt-bot/add-a-data-source.md)
+- [View Conversational AI Policy](https://docs.aisera.com/aiseragpt/how-to-set-up-an-aiseragpt-bot/view-conversational-ai-policy.md)
+- [View Conversation Messages](https://docs.aisera.com/aiseragpt/how-to-set-up-an-aiseragpt-bot/view-conversation-messages.md)
+- [Customize SSO Failure Message](https://docs.aisera.com/aiseragpt/how-to-set-up-an-aiseragpt-bot/view-conversation-messages/customize-sso-failure-message.md)
+- [Unified Language Support](https://docs.aisera.com/aiseragpt/how-to-set-up-an-aiseragpt-bot/unified-language-support.md)
+- [Add Feedback Ability](https://docs.aisera.com/aiseragpt/how-to-set-up-an-aiseragpt-bot/add-feedback-ability.md)
+- [Turn On Sound](https://docs.aisera.com/aiseragpt/how-to-set-up-an-aiseragpt-bot/turn-on-sound.md)
+- [Connection Status](https://docs.aisera.com/aiseragpt/how-to-set-up-an-aiseragpt-bot/connection-status.md)
+- [Customize the look and feel of your AiseraGPT](https://docs.aisera.com/aiseragpt/how-to-set-up-an-aiseragpt-bot/customize-the-look-and-feel-of-your-aiseragpt.md)
+- [How to Create a Conversational AI 2.0 Bot](https://docs.aisera.com/aiseragpt/how-to-create-a-conversational-ai-2.0-bot.md)
+- [Embed Your Webchat Channel](https://docs.aisera.com/aiseragpt/embed-your-webchat-channel.md)
+
+## Aisera Platform
+
+- [Overview of Aisera Platform Administration](https://docs.aisera.com/aisera-platform/overview-of-aisera-platform-administration.md)
+- [Security and Privacy (TRAPS)](https://docs.aisera.com/aisera-platform/tenant-setup/security-and-privacy-traps.md): Aisera's proprietary security system protects your applications and data against attacks
+- [Masking PII](https://docs.aisera.com/aisera-platform/tenant-setup/security-and-privacy-traps/masking-pii.md)
+- [Managing Data Risks](https://docs.aisera.com/aisera-platform/tenant-setup/security-and-privacy-traps/managing-data-risks.md)
+- [Aisera Platform Configuration](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration.md): Configure the Aisera Platform to suite your needs
+- [Setting Up SSO Authentication](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/setting-up-sso-authentication.md): Configure the Aisera Admin UI to use SSO for Authentication
+- [Setting up Entra ID for SSO with the Aisera Platform](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/setting-up-sso-authentication/setting-up-entra-id-for-sso-with-the-aisera-platform.md): Set Up Entra ID for authentication with the Aisera Platform
+- [Setting up Okta for SSO with the Aisera Platform](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/setting-up-sso-authentication/setting-up-okta-for-sso-with-the-aisera-platform.md): Set Up Okta for authentication with the Aisera Platform
+- [Tenant Configuration Settings](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/tenant-configuration-settings.md): Configure your tenant to suite your needs
+- [Access Management](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/tenant-configuration-settings/access-management.md): Configure attribute-based access control for knowledge articles served by your Aisera bots.
+- [Aisera Alert](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/tenant-configuration-settings/aisera-alert.md): Tenant-level settings that control how the Aisera platform creates and tracks incidents in your external ticketing system when Aisera Alerts are detected.
+- [Authentication](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/tenant-configuration-settings/authentication.md)
+- [Authentication for Private Document](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/tenant-configuration-settings/authentication-for-private-document.md)
+- [AutoBOL](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/tenant-configuration-settings/autobol.md)
+- [Channels](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/tenant-configuration-settings/channels.md): Configure how tickets display in Aisera channels and manage session variables for your tenant.
+- [Collaboration](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/tenant-configuration-settings/collaboration.md): Configure a dedicated Slack workspace for incident response so your team can collaborate directly from Aisera.
+- [Context Management](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/tenant-configuration-settings/context-management.md): Tenant-level settings that control how your bots handle interrupted flows, context switches, and input validation.
+- [Conversation](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/tenant-configuration-settings/conversation.md): Tenant-level settings that control how Aisera manages conversations, sessions, auditing, and system of record integrations across all bots.
+- [Intent And Search](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/tenant-configuration-settings/conversation/intent-and-search.md): Tenant-level settings that control how Aisera classifies user intent, serves knowledge base content, and handles requests it cannot match.
+- [NLP Models](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/tenant-configuration-settings/conversation/nlp-models.md): Tenant-level settings that control which language analysis models Aisera runs against user messages during a conversation.
+- [Flows](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/tenant-configuration-settings/conversation/flows.md): Tenant-level settings that control how Aisera executes flows, how users can exit or escalate out of a flow, and what happens when a suggested action is rejected.
+- [Cache](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/tenant-configuration-settings/conversation/cache.md): Tenant-level settings that control how long Aisera retains context for interactive conversation elements after they are presented to the user.
+- [Deflect Escalation Intents](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/tenant-configuration-settings/deflect-escalation-intents.md): Tenant configuration settings that control how the Aisera Platform intercepts and handles escalation requests before routing them to ticket creation or a live agent.
+- [Display](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/tenant-configuration-settings/display.md): Configure the visual appearance of the Aisera Admin UI for your tenant.
+- [Enterprise Search](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/tenant-configuration-settings/enterprise-search.md): Tenant-level settings that control how Aisera retrieves and scores search results across all bots.
+- [Feature Flags](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/tenant-configuration-settings/feature-flags.md): Tenant-level flags that enable optional and experimental platform capabilities across channels, workflows, AI features, analytics, and integrations.
+- [Federation Service](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/tenant-configuration-settings/federation-service.md): Controls how the Federation Service filters and ranks results across connected bots in a Universal bot deployment.
+- [Hyperflows](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/tenant-configuration-settings/hyperflows.md): Configure execution behavior, prompt handling, and response delivery for Hyperflows across your Aisera tenant.
+- [ICM](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/tenant-configuration-settings/icm.md): Controls how the Intent Classification Model scores, preprocesses, and classifies user intents across your Aisera tenant
+- [Incidents](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/tenant-configuration-settings/incidents.md): Controls which machine learning models Aisera applies to incoming incident tickets and alerts for analysis, enrichment, and clustering.
+- [Knowledge Generation](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/tenant-configuration-settings/knowledge-generation.md): Define the field schemas Aisera uses when generating knowledge base articles from connected knowledge platforms.
+- [Knowledge Learning](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/tenant-configuration-settings/knowledge-learning.md): Tenant-level settings that control how the Knowledge Learning service scores and matches Knowledge Base articles during training.
+- [Knowledge Serving](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/tenant-configuration-settings/knowledge-serving.md): Settings for how KB article links are rewritten and tracked before they reach users.
+- [LLM Cache](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/tenant-configuration-settings/llm-cache.md): Controls how the large language model (LLM) semantic cache stores and matches responses across your tenant.
+- [Language Services](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/tenant-configuration-settings/language-services.md): Selects the translation and language detection provider Aisera uses across the tenant and stores credentials for each supported service.
+- [Major Incident/Possible Issue](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/tenant-configuration-settings/major-incident-possible-issue.md): Controls alerting, incident creation, and cluster classification behavior for Aisera's major incident detection.
+- [Neural Search](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/tenant-configuration-settings/neural-search.md): Configure how neural search retrieves, ranks, and filters knowledge base content across all bots in your tenant.
+- [Parser](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/tenant-configuration-settings/parser.md): Controls how the Aisera platform ingests, parses, and processes documents from connected data sources.
+- [Document Converter](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/tenant-configuration-settings/parser/document-converter.md): Tenant-level settings for advanced PDF conversion, including large document splitting, complex layouts, and high-accuracy table extraction.
+- [Microsoft Form Recognizer](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/tenant-configuration-settings/parser/microsoft-form-recognizer.md): Tenant-level settings for Azure Form Recognizer, enabling OCR, table extraction, and layout analysis on complex or scanned PDFs.
+- [Format-specific parameters](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/tenant-configuration-settings/parser/format-specific-parameters.md): Tenant-level settings for fine-tuning how the parser handles HTML, PDF, and Word documents at the format level.
+- [Predictions](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/tenant-configuration-settings/predictions.md): Controls prediction-related settings for your Aisera tenant.
+- [Public Search](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/tenant-configuration-settings/public-search.md): Settings for configuring which public web search engine Aisera queries and how it fetches and summarizes content from external domains.
+- [Requests Transcript Export](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/tenant-configuration-settings/requests-transcript-export.md): Controls how Aisera validates date ranges and formats notification emails for requests transcript export jobs.
+- [Resolution Rate](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/tenant-configuration-settings/resolution-rate.md): Controls how Aisera classifies different conversation outcomes for resolution rate reporting across your tenant.
+- [SMTP](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/tenant-configuration-settings/smtp.md)
+- [Search](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/tenant-configuration-settings/search.md)
+- [Test Suite](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/tenant-configuration-settings/test-suite.md): Governs test case limits and debug panel visibility for bots in an Aisera tenant.
+- [Ticket](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/tenant-configuration-settings/ticket.md): Controls how the Aisera Platform handles ticket status normalization and knowledge indexing from resolved incidents.
+- [Ticket IQ](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/tenant-configuration-settings/ticket-iq.md)
+- [Tools](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/tenant-configuration-settings/tools.md)
+- [Universal Operation Mode](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/tenant-configuration-settings/universal-operation-mode.md)
+- [User Engagement](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/tenant-configuration-settings/user-engagement.md)
+- [Voice](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/tenant-configuration-settings/voice.md)
+- [Workflows](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/tenant-configuration-settings/workflows.md)
+- [Aisera Platform Roles and Permissions](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/aisera-platform-roles-and-permissions.md): Learn about roles and permissions within the Aisera Admin UI
+- [Managing User Accounts](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/aisera-platform-roles-and-permissions/managing-user-accounts.md): Learn how to create, edit, and manage User Accounts on the Aisera platform
+- [Managing User Roles](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/aisera-platform-roles-and-permissions/managing-user-roles.md): Learn how to create, edit, and manage User Roles on the Aisera platform
+- [Built in User Roles and Permissions](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/aisera-platform-roles-and-permissions/built-in-user-roles-and-permissions.md): Learn about entities and built in roles within the Aisera Admin UI
+- [Aisera Platform Permissions](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/aisera-platform-roles-and-permissions/aisera-platform-permissions.md): Permissions and their related features on the Aisera Platform
+- [Restrict Editing to a Single Bot](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/aisera-platform-roles-and-permissions/restrict-editing-to-a-single-bot.md)
+- [Audit Trail](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/audit-trail.md): Track user and systems actions in your tenant
+- [Exporting Logs to External Systems](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/audit-trail/exporting-logs-to-external-systems.md): Export Aisera platform logs for use in third party applications
+- [Inventory Transparency](https://docs.aisera.com/aisera-platform/tenant-setup/aisera-platform-configuration/inventory-transparency.md)
+- [Integrations and Data Sources](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources.md): Aisera's integration approach is an important part of the platform's extensibility. The Aisera platform supports many integrations and data source connections.
+- [Creating a Connector](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/creating-a-connector.md): Learn the flow of connecting applications to the Aisera Platform
+- [Adding and Managing Integrations in Your Tenant](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/creating-a-connector/adding-and-managing-integrations-in-your-tenant.md): Create an Integration to authenticate with your third-party applications
+- [Adding and Managing Data Sources in Your Tenant](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/creating-a-connector/adding-and-managing-data-sources-in-your-tenant.md): Create and configure Data Sources to allow the Aisera Platform to interact with your third-party applications
+- [Data Source Configurations](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/creating-a-connector/adding-and-managing-data-sources-in-your-tenant/data-source-configurations.md): Configure your Data Source to ingest data on your terms
+- [Using the Generic Connector](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/using-the-generic-connector.md): Connect any third-party application to the Aisera platform by creating a Generic Connector
+- [Supported Auth Types for Custom Integrations](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/supported-auth-types-for-custom-integrations.md): Manage and configure the authentication types required for your custom integrations
+- [Basic Authentication](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/supported-auth-types-for-custom-integrations/basic-authentication.md): Set up Basic authentication for your integration
+- [OAuth 2.0 Authorization Code Grant](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/supported-auth-types-for-custom-integrations/oauth-2.0-authorization-code-grant.md): Authenticate using the  OAuth 2.0 Authorization Code Grant
+- [OAuth 2.0 Password Grant](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/supported-auth-types-for-custom-integrations/oauth-2.0-password-grant.md): Authenticate using the OAuth 2.0 Password Grant
+- [OAuth 2.0 Client Credentials Grant](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/supported-auth-types-for-custom-integrations/oauth-2.0-client-credentials-grant.md): Authenticate using the OAuth 2.0 Client Credentials Grant
+- [Basic To Bearer](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/supported-auth-types-for-custom-integrations/basic-to-bearer.md): Authenticate by using Basic Credentials to retrieve an Access Token
+- [No Auth](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/supported-auth-types-for-custom-integrations/no-auth.md): Integrate with applications requiring no authenticaiton
+- [Token](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/supported-auth-types-for-custom-integrations/token.md): Set up authentication with an Access Token for your integration
+- [JSON Web Token](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/supported-auth-types-for-custom-integrations/json-web-token.md): Authenticate with a third-party application using JSON Web Tokens
+- [Pluggable Authentication Mode (PAM)](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/supported-auth-types-for-custom-integrations/pluggable-authentication-mode-pam.md): Authenticate with your external systems using Pluggable Authentication Mode
+- [OIDC](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/supported-auth-types-for-custom-integrations/oidc.md)
+- [OAuth Custom](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/supported-auth-types-for-custom-integrations/oauth-custom.md)
+- [Integration Reauthorization](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/integration-reauthorization.md): Reauthorize your existing data source integrations when permissions expire
+- [Remote Executor](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/remote-executor.md): Connect your on-premises software installations to the Aisera platform with the Remote Executor
+- [Connectors](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/connectors.md): Instructions for using out of the box connectors
+- [8x8 Live Agent](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/connectors/8x8-live-agent.md)
+- [Setting Up AmazonConnect in Aisera](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/connectors/setting-up-amazonconnect-in-aisera.md)
+- [Azure AD](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/connectors/azure-ad.md)
+- [Active Directory Connector](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/connectors/active-directory-connector.md): Learn about the functionality and requirements of the Active Directory connector for the Aisera platform
+- [Box Connector](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/connectors/box-connector.md): Learn about the functionality and requirements of the Box connector for the Aisera platform
+- [Confluence Connector](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/connectors/confluence-connector.md): Learn about the functionality and requirements of the Confluence connector for the Aisera platform
+- [Ingesting Dynamically Generated Content from Confluence](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/connectors/confluence-connector/ingesting-dynamically-generated-content-from-confluence.md): Scrape content dynamically generated by Confluence Macros
+- [Setting Up Cribl with Aisera](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/connectors/setting-up-cribl-with-aisera.md)
+- [Duo Security](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/connectors/duo-security.md)
+- [Dynatrace](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/connectors/dynatrace.md): Learn about the functionality and requirements of the Dynatrace connector for the Aisera platform
+- [Freshworks Connector](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/connectors/freshworks-connector.md): Learn about the functionality and requirements of the Freshworks connector for the Aisera platform
+- [FreshDesk Connector](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/connectors/freshdesk-connector.md)
+- [Freshworks Knowledge Ingestion](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/connectors/freshworks-knowledge-ingestion.md)
+- [File Data Connector](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/connectors/file-data-connector.md): Manually Upload files or ingest data from Cloud Storage Solutions
+- [Google Cloud Storage](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/connectors/google-cloud-storage.md)
+- [Google Drive Knowledge Ingestion](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/connectors/google-drive-knowledge-ingestion.md)
+- [Happy Fox](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/connectors/happy-fox.md)
+- [Intune](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/connectors/intune.md)
+- [Ivanti](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/connectors/ivanti.md)
+- [JDBC Connectors](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/connectors/jdbc-connectors.md)
+- [Jira Service Desk Connector](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/connectors/jira-service-desk-connector.md): Learn about the functionality and requirements of the Jira Service Desk connector for the Aisera platform
+- [SharePoint Connector](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/connectors/sharepoint-connector.md): Connect SharePoint Online and on-premises installations to Aisera to ingest pages and files as Knowledge Base Articles.
+- [Access Controls with the SharePoint Connector](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/connectors/sharepoint-connector/access-controls-with-the-sharepoint-connector.md): Enable access controls for SharePoint articles
+- [NexThink](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/connectors/nexthink.md)
+- [Notion](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/connectors/notion.md)
+- [Okta Connector](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/connectors/okta-connector.md)
+- [SailPoint](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/connectors/sailpoint.md)
+- [SAP Cloud for Customer (C4C)](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/connectors/sap-cloud-for-customer-c4c.md)
+- [SAP SuccessFactors](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/connectors/sap-successfactors.md)
+- [SAP SuccessFactors](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/connectors/sap-successfactors-1.md)
+- [Salesforce](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/connectors/salesforce.md)
+- [SAP Cloud for Customer (C4C)](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/connectors/sap-cloud-for-customer-c4c-1.md)
+- [ServiceNow Connector](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/connectors/servicenow-connector.md): Learn about the functionality and requirements of the ServiceNow connector for the Aisera Platform
+- [Simpplr](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/connectors/simpplr.md)
+- [Slack as a Data Source for Conversational and User Learning](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/connectors/slack-as-a-data-source-for-conversational-and-user-learning.md): Connect Slack to Aisera to ingest channel messages and user data for Knowledge Base, Conversations, and User Learning.
+- [Splunk](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/connectors/splunk.md)
+- [Export Audit Logs to Splunk](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/connectors/splunk/export-audit-logs-to-splunk.md)
+- [Veeva Vault](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/connectors/veeva-vault.md)
+- [Workday](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/connectors/workday.md)
+- [Zendesk Knowledge Ingestion](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/connectors/zendesk-knowledge-ingestion.md)
+- [Zendesk system integration](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/connectors/zendesk-system-integration.md)
+- [Zendesk Community Posts](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/connectors/zendesk-community-posts.md)
+- [Best Practices for Connectors](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/integrations-and-data-sources/best-practices-for-connectors.md): Learn the best practices for configuring your connectors
+- [Data Ingestion](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/data-ingestion.md)
+- [Field Maps](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/data-ingestion/field-maps.md): Map data from Data Sources to the Aisera Platform
+- [Creating New Field Maps](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/data-ingestion/field-maps/creating-new-field-maps.md): Map Data from your Data Sources to existing Aisera fields
+- [Creating a Custom Field](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/data-ingestion/field-maps/creating-a-custom-field.md): Map custom data from your Data Sources to the Aisera Platform
+- [Exporting Field Mappings](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/data-ingestion/field-maps/exporting-field-mappings.md)
+- [Importing Field Maps](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/data-ingestion/field-maps/importing-field-maps.md)
+- [Derivation Rules](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/data-ingestion/field-maps/derivation-rules.md)
+- [Knowledge Base Content Best Practices](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/data-ingestion/knowledge-base-content-best-practices.md)
+- [Optimizing Documents for RAG Indexing](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/data-ingestion/optimizing-documents-for-rag-indexing.md): Improve RAG answer quality by preparing your documents before ingestion.
+- [When to Optimize Documents](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/data-ingestion/optimizing-documents-for-rag-indexing/when-to-optimize-documents.md): Identify when poor RAG results point to a content problem, and when to act on it.
+- [How to Optimize Documents](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/data-ingestion/optimizing-documents-for-rag-indexing/how-to-optimize-documents.md): Prepare your documents for accurate, reliable RAG indexing and retrieval
+- [Re-indexing and Testing After Optimization](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/data-ingestion/optimizing-documents-for-rag-indexing/re-indexing-and-testing-after-optimization.md): Re-ingest your optimized documents and validate the results in your application or bot
+- [Examples of Document Optimization](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/data-ingestion/optimizing-documents-for-rag-indexing/examples-of-document-optimization.md): See how document optimization strategies apply across different content types.
+- [How to Set Up Knowledge Base Crawls](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/data-ingestion/how-to-set-up-knowledge-base-crawls.md): Crawl your Data Sources and gather documents to fulfill user requests.
+- [How to Review Crawled Knowledge Documents](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/data-ingestion/how-to-review-crawled-knowledge-documents.md): Review and train your bots to fulfill user requests.
+- [Masking and Anonymizing PII](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/data-ingestion/masking-and-anonymizing-pii.md)
+- [Accurately Ingesting PDFs into the Aisera Platform](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/data-ingestion/accurately-ingesting-pdfs-into-the-aisera-platform.md)
+- [Manually Ingesting Files](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/data-ingestion/manually-ingesting-files.md)
+- [Retiring an Ingested Document](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/data-ingestion/retiring-an-ingested-document.md)
+- [Best Practices for Ticket Ingestion](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/data-ingestion/best-practices-for-ticket-ingestion.md)
+- [Data Re-Ingestion](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/data-ingestion/data-re-ingestion.md)
+- [Troubleshooting Data Ingestion](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/data-ingestion/troubleshooting-data-ingestion.md)
+- [Deduplication for Ticket Alerts](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/data-ingestion/deduplication-for-ticket-alerts.md)
+- [Content Access Control](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/content-access-control.md)
+- [Access Information for SharePoint KBAs](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/content-access-control/access-information-for-sharepoint-kbas.md)
+- [Content Access Control via APIs](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/content-access-control/content-access-control-via-apis.md): Implement access control to your content using APIs
+- [Post-Ingestion Tasks - System Jobs](https://docs.aisera.com/aisera-platform/adding-data-to-your-tenant/post-ingestion-tasks-system-jobs.md)
+- [Channels](https://docs.aisera.com/aisera-platform/channels.md)
+- [Aisera Webchat](https://docs.aisera.com/aisera-platform/channels/aisera-webchat.md)
+- [Webchat SSO-SAML with Azure/Entra](https://docs.aisera.com/aisera-platform/channels/aisera-webchat/webchat-sso-saml-with-azure-entra.md)
+- [Webchat SSO-SAML and OAuth2-SSO Integration with Auth0](https://docs.aisera.com/aisera-platform/channels/aisera-webchat/webchat-sso-saml-and-oauth2-sso-integration-with-auth0.md)
+- [Customize your Webchat Menu (Policy)](https://docs.aisera.com/aisera-platform/channels/aisera-webchat/customize-your-webchat-menu-policy.md)
+- [Customize Bot Menu (Policy)](https://docs.aisera.com/aisera-platform/channels/aisera-webchat/customize-bot-menu-policy.md)
+- [Ticket AI Agent Assist](https://docs.aisera.com/aisera-platform/channels/ticket-ai-agent-assist.md)
+- [Aisera Copilot](https://docs.aisera.com/aisera-platform/channels/aisera-copilot.md)
+- [Aisera API Channel](https://docs.aisera.com/aisera-platform/channels/aisera-api-channel.md)
+- [Interactive Voice Response (IVR)](https://docs.aisera.com/aisera-platform/channels/interactive-voice-response-ivr.md)
+- [Channel Settings for IVR](https://docs.aisera.com/aisera-platform/channels/interactive-voice-response-ivr/channel-settings-for-ivr.md)
+- [Voice Request Playback](https://docs.aisera.com/aisera-platform/channels/interactive-voice-response-ivr/voice-request-playback.md)
+- [Genesys Integration](https://docs.aisera.com/aisera-platform/channels/interactive-voice-response-ivr/genesys-integration.md)
+- [Live Agent Setup](https://docs.aisera.com/aisera-platform/channels/interactive-voice-response-ivr/genesys-integration/live-agent-setup.md)
+- [Voice Bot Setup](https://docs.aisera.com/aisera-platform/channels/interactive-voice-response-ivr/genesys-integration/voice-bot-setup.md)
+- [ServiceNow Live Agent Setup](https://docs.aisera.com/aisera-platform/channels/interactive-voice-response-ivr/servicenow-live-agent-setup.md)
+- [Microsoft (MS) Teams (Azure Bot)](https://docs.aisera.com/aisera-platform/channels/microsoft-ms-teams-azure-bot.md)
+- [Setting Up a Slack Channel](https://docs.aisera.com/aisera-platform/channels/setting-up-a-slack-channel.md): Integrate Slack with your Aisera Applications
+- [Email Channel](https://docs.aisera.com/aisera-platform/channels/email-channel.md)
+- [Google Chat](https://docs.aisera.com/aisera-platform/channels/google-chat.md)
+- [Ring Central Glip](https://docs.aisera.com/aisera-platform/channels/ring-central-glip.md)
+- [Webex (Cisco)](https://docs.aisera.com/aisera-platform/channels/webex-cisco.md)
+- [WhatsApp](https://docs.aisera.com/aisera-platform/channels/whatsapp.md)
+- [Zoom](https://docs.aisera.com/aisera-platform/channels/zoom.md)
+- [Form Intercept](https://docs.aisera.com/aisera-platform/channels/form-intercept.md)
+- [Zendesk (Ticket Concierge)](https://docs.aisera.com/aisera-platform/channels/zendesk-ticket-concierge.md)
+- [Ticket Operations](https://docs.aisera.com/aisera-platform/ticket-operations.md)
+- [Ticket Auto Resolution](https://docs.aisera.com/aisera-platform/ticket-operations/ticket-auto-resolution.md)
+- [Ticket Concierge (TC) with Event Studio](https://docs.aisera.com/aisera-platform/ticket-operations/ticket-concierge-tc-with-event-studio.md)
+- [Setting up ServiceNow to Work with Ticket Concierge](https://docs.aisera.com/aisera-platform/ticket-operations/ticket-concierge-tc-with-event-studio/setting-up-servicenow-to-work-with-ticket-concierge.md)
+- [Setting up a ServiceNow Data Source for Ticket Concierge](https://docs.aisera.com/aisera-platform/ticket-operations/ticket-concierge-tc-with-event-studio/setting-up-a-servicenow-data-source-for-ticket-concierge.md)
+- [Ticket Notification](https://docs.aisera.com/aisera-platform/ticket-operations/ticket-notification.md)
+- [Knowledge Article Operations](https://docs.aisera.com/aisera-platform/knowledge-article-operations.md)
+- [Crafting the Conversation](https://docs.aisera.com/aisera-platform/crafting-the-conversation.md)
+- [Conversation Design (ICM, LLM, and Hybrid)](https://docs.aisera.com/aisera-platform/crafting-the-conversation/conversation-design-icm-llm-and-hybrid.md)
+- [Starting Your Conversation Design](https://docs.aisera.com/aisera-platform/crafting-the-conversation/starting-your-conversation-design.md)
+- [How to Edit Conversation Key Messages](https://docs.aisera.com/aisera-platform/crafting-the-conversation/how-to-edit-conversation-key-messages.md)
+- [Bot Conversation Variables](https://docs.aisera.com/aisera-platform/crafting-the-conversation/how-to-edit-conversation-key-messages/bot-conversation-variables.md)
+- [Configuring ICM Intents and Fulfillment](https://docs.aisera.com/aisera-platform/crafting-the-conversation/configuring-icm-intents-and-fulfillment.md)
+- [AI Workbench - Optimize Conversations](https://docs.aisera.com/aisera-platform/ai-workbench-optimize-conversations.md)
+- [What is Conversational AI 2.0?](https://docs.aisera.com/aisera-platform/ai-workbench-optimize-conversations/what-is-conversational-ai-2.0.md)
+- [Requests Window](https://docs.aisera.com/aisera-platform/ai-workbench-optimize-conversations/requests-window.md)
+- [Request Analyzer - Conversation Status](https://docs.aisera.com/aisera-platform/ai-workbench-optimize-conversations/request-analyzer-conversation-status.md)
+- [Analysis of Unresolved Conversations](https://docs.aisera.com/aisera-platform/ai-workbench-optimize-conversations/analysis-of-unresolved-conversations.md)
+- [AI Lens](https://docs.aisera.com/aisera-platform/ai-workbench-optimize-conversations/ai-lens.md)
+- [Test Suite](https://docs.aisera.com/aisera-platform/ai-workbench-optimize-conversations/test-suite.md)
+- [LLM Operations](https://docs.aisera.com/aisera-platform/llm-operations.md)
+- [Aisera LLM Benchmarking](https://docs.aisera.com/aisera-platform/llm-operations/aisera-llm-benchmarking.md)
+- [Aisera's Domain Specific LLMs](https://docs.aisera.com/aisera-platform/llm-operations/aiseras-domain-specific-llms.md)
+- [Understanding LLM Capabilities](https://docs.aisera.com/aisera-platform/llm-operations/understanding-llm-capabilities.md)
+- [LLM Lifecycle](https://docs.aisera.com/aisera-platform/llm-operations/understanding-llm-capabilities/llm-lifecycle.md)
+- [Bot Deprecation](https://docs.aisera.com/aisera-platform/llm-operations/understanding-llm-capabilities/llm-lifecycle/bot-deprecation.md)
+- [Bot Deprecation Guidelines](https://docs.aisera.com/aisera-platform/llm-operations/understanding-llm-capabilities/llm-lifecycle/bot-deprecation/bot-deprecation-guidelines.md)
+- [LLM Reasoning and Planning](https://docs.aisera.com/aisera-platform/llm-operations/understanding-llm-capabilities/llm-reasoning-and-planning.md)
+- [Aisera's Agentic AI for ITSM](https://docs.aisera.com/aisera-platform/llm-operations/understanding-llm-capabilities/aiseras-agentic-ai-for-itsm.md)
+- [Change Optimization with Cluster Analysis](https://docs.aisera.com/aisera-platform/llm-operations/understanding-llm-capabilities/change-optimization-with-cluster-analysis.md)
+- [Prompts Studio](https://docs.aisera.com/aisera-platform/llm-operations/prompts-studio.md)
+- [LLM Gateway](https://docs.aisera.com/aisera-platform/llm-operations/llm-gateway.md)
+- [Ontology](https://docs.aisera.com/aisera-platform/llm-operations/ontology.md)
+- [AI Automation - Optimize Flow](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow.md)
+- [AI Workflow Studio](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/ai-workflow-studio.md)
+- [Workflow Best Practices](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/ai-workflow-studio/workflow-best-practices.md)
+- [Building Workflows](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/ai-workflow-studio/building-workflows.md)
+- [Using Workflow Actions](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/ai-workflow-studio/building-workflows/using-workflow-actions.md)
+- [Frequently Used Actions](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/ai-workflow-studio/building-workflows/using-workflow-actions/frequently-used-actions.md)
+- [Ticket Management Actions](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/ai-workflow-studio/building-workflows/using-workflow-actions/ticket-management-actions.md)
+- [Entity Summarization Actions](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/ai-workflow-studio/building-workflows/using-workflow-actions/entity-summarization-actions.md)
+- [Custom Table Actions](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/ai-workflow-studio/building-workflows/using-workflow-actions/custom-table-actions.md): The Aisera AI Workflow Studio provides Custom Table Actions that you can choose when creating Workflow Action Nodes.
+- [Workflow Descriptions for 2.0](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/ai-workflow-studio/building-workflows/workflow-descriptions-for-2.0.md)
+- [Creating Intentless Workflows](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/ai-workflow-studio/building-workflows/creating-intentless-workflows.md)
+- [How to Create a Knowledge Graph](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/ai-workflow-studio/building-workflows/how-to-create-a-knowledge-graph.md)
+- [LLM Image Actions](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/ai-workflow-studio/building-workflows/llm-image-actions.md)
+- [Use a Workflow as an NLU Pipeline](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/ai-workflow-studio/building-workflows/use-a-workflow-as-an-nlu-pipeline.md)
+- [Use Message Node for Markdown Variables with Copilot](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/ai-workflow-studio/building-workflows/use-message-node-for-markdown-variables-with-copilot.md)
+- [Register a Workflow for Bot Conversational Triggers](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/ai-workflow-studio/register-a-workflow-for-bot-conversational-triggers.md)
+- [Testing Workflows](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/ai-workflow-studio/testing-workflows.md)
+- [Publishing Workflows](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/ai-workflow-studio/publishing-workflows.md)
+- [Export and Import Workflows](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/ai-workflow-studio/export-and-import-workflows.md)
+- [Workflow Reference Guides](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/ai-workflow-studio/workflow-reference-guides.md)
+- [Workflow Nodes](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/ai-workflow-studio/workflow-reference-guides/workflow-nodes.md)
+- [Action Nodes](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/ai-workflow-studio/workflow-reference-guides/workflow-nodes/action-nodes.md)
+- [Action](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/ai-workflow-studio/workflow-reference-guides/workflow-nodes/action-nodes/action.md)
+- [Create Ticket](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/ai-workflow-studio/workflow-reference-guides/workflow-nodes/action-nodes/create-ticket.md)
+- [Ask Approval](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/ai-workflow-studio/workflow-reference-guides/workflow-nodes/action-nodes/ask-approval.md)
+- [Table Query](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/ai-workflow-studio/workflow-reference-guides/workflow-nodes/action-nodes/table-query.md)
+- [Notification](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/ai-workflow-studio/workflow-reference-guides/workflow-nodes/action-nodes/notification.md)
+- [User Interaction (Conversational)](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/ai-workflow-studio/workflow-reference-guides/workflow-nodes/user-interaction-conversational.md)
+- [User Input](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/ai-workflow-studio/workflow-reference-guides/workflow-nodes/user-interaction-conversational/user-input.md)
+- [Input Form](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/ai-workflow-studio/workflow-reference-guides/workflow-nodes/user-interaction-conversational/input-form.md)
+- [Message](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/ai-workflow-studio/workflow-reference-guides/workflow-nodes/user-interaction-conversational/message.md)
+- [Operations Nodes](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/ai-workflow-studio/workflow-reference-guides/workflow-nodes/operations-nodes.md)
+- [Decision](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/ai-workflow-studio/workflow-reference-guides/workflow-nodes/operations-nodes/decision.md)
+- [Goto](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/ai-workflow-studio/workflow-reference-guides/workflow-nodes/operations-nodes/goto.md)
+- [Subflow](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/ai-workflow-studio/workflow-reference-guides/workflow-nodes/operations-nodes/subflow.md)
+- [Parallel](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/ai-workflow-studio/workflow-reference-guides/workflow-nodes/operations-nodes/parallel.md)
+- [Prompt](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/ai-workflow-studio/workflow-reference-guides/workflow-nodes/operations-nodes/prompt.md)
+- [Callback](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/ai-workflow-studio/workflow-reference-guides/workflow-nodes/operations-nodes/callback.md)
+- [Set Variable](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/ai-workflow-studio/workflow-reference-guides/workflow-nodes/operations-nodes/set-variable.md)
+- [Advanced Nodes](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/ai-workflow-studio/workflow-reference-guides/workflow-nodes/advanced-nodes.md)
+- [HTTP Request](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/ai-workflow-studio/workflow-reference-guides/workflow-nodes/advanced-nodes/http-request.md)
+- [JavaScript Node](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/ai-workflow-studio/workflow-reference-guides/workflow-nodes/advanced-nodes/javascript-node.md)
+- [Workflow Management](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/ai-workflow-studio/workflow-reference-guides/workflow-management.md)
+- [Workflow Analytics](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/ai-workflow-studio/workflow-analytics.md)
+- [Workflow to Enable a Live Agent](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/ai-workflow-studio/workflow-to-enable-a-live-agent.md)
+- [Hyperflow Studio](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/hyperflow-studio.md)
+- [Anatomy of a Hyperflow](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/hyperflow-studio/anatomy-of-a-hyperflow.md)
+- [Hyperflows or Workflows?](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/hyperflow-studio/hyperflows-or-workflows.md)
+- [Creating a Hyperflow](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/hyperflow-studio/creating-a-hyperflow.md)
+- [Hyperflow Prompt Optimization](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/hyperflow-studio/hyperflow-prompt-optimization.md)
+- [Hyperflow Prompt Template Integration](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/hyperflow-studio/hyperflow-prompt-optimization/hyperflow-prompt-template-integration.md)
+- [Hyperflow Implementation Example](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/hyperflow-studio/hyperflow-implementation-example.md)
+- [Test and Debug a Hyperflow](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/hyperflow-studio/test-and-debug-a-hyperflow.md): Before publishing, test your Hyperflow to ensure it behaves as expected.
+- [Hyperflow FAQs & Best Practices](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/hyperflow-studio/hyperflow-faqs-and-best-practices.md)
+- [Event Studio](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/event-studio.md)
+- [Notification Channels for Triggers](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/event-studio/notification-channels-for-triggers.md)
+- [System Triggers](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/event-studio/system-triggers.md)
+- [Campaigns](https://docs.aisera.com/aisera-platform/ai-automation-optimize-flow/campaigns.md)
+- [Content Generation from Tickets](https://docs.aisera.com/aisera-platform/content-generation-from-tickets.md)
+- [Why extract solutions from the Ticket Comments?](https://docs.aisera.com/aisera-platform/content-generation-from-tickets/why-extract-solutions-from-the-ticket-comments.md)
+- [Set Up Guide for Knowledge Generation](https://docs.aisera.com/aisera-platform/content-generation-from-tickets/set-up-guide-for-knowledge-generation.md)
+- [Step-by-step Setup for Knowledge Generation](https://docs.aisera.com/aisera-platform/content-generation-from-tickets/set-up-guide-for-knowledge-generation/step-by-step-setup-for-knowledge-generation.md)
+- [Loading the JSON File](https://docs.aisera.com/aisera-platform/content-generation-from-tickets/set-up-guide-for-knowledge-generation/loading-the-json-file.md)
+- [Knowledge Generation Configuration](https://docs.aisera.com/aisera-platform/content-generation-from-tickets/set-up-guide-for-knowledge-generation/knowledge-generation-configuration.md)
+- [Start the Knowledge Generation](https://docs.aisera.com/aisera-platform/content-generation-from-tickets/set-up-guide-for-knowledge-generation/start-the-knowledge-generation.md)
+- [Generated Knowledge Data Source](https://docs.aisera.com/aisera-platform/content-generation-from-tickets/set-up-guide-for-knowledge-generation/generated-knowledge-data-source.md)
+- [Knowledge Generation and Similarity Check Logic](https://docs.aisera.com/aisera-platform/content-generation-from-tickets/set-up-guide-for-knowledge-generation/knowledge-generation-and-similarity-check-logic.md)
+- [Analyze KB Article Generation Results](https://docs.aisera.com/aisera-platform/content-generation-from-tickets/analyze-kb-article-generation-results.md)
+- [AI Generated Documents from Bulk Tickets](https://docs.aisera.com/aisera-platform/content-generation-from-tickets/analyze-kb-article-generation-results/ai-generated-documents-from-bulk-tickets.md)
+- [AI Generated Documents from Single Tickets](https://docs.aisera.com/aisera-platform/content-generation-from-tickets/analyze-kb-article-generation-results/ai-generated-documents-from-single-tickets.md)
+- [Single Tab Window](https://docs.aisera.com/aisera-platform/content-generation-from-tickets/analyze-kb-article-generation-results/ai-generated-documents-from-single-tickets/single-tab-window.md)
+- [Knowledge Generation Error Messages](https://docs.aisera.com/aisera-platform/content-generation-from-tickets/analyze-kb-article-generation-results/knowledge-generation-error-messages.md)
+- [AI Generated Document Details Side Panel](https://docs.aisera.com/aisera-platform/content-generation-from-tickets/analyze-kb-article-generation-results/ai-generated-document-details-side-panel.md)
+- [Available Actions for Generated Knowledge Articles](https://docs.aisera.com/aisera-platform/content-generation-from-tickets/available-actions-for-generated-knowledge-articles.md)
+- [Generating Documents from the Aisera Admin UI](https://docs.aisera.com/aisera-platform/content-generation-from-tickets/generating-documents-from-the-aisera-admin-ui.md)
+- [Functionality of Generated Documents that are Recrawled](https://docs.aisera.com/aisera-platform/content-generation-from-tickets/functionality-of-generated-documents-that-are-recrawled.md)
+- [Similar Documents Page](https://docs.aisera.com/aisera-platform/content-generation-from-tickets/similar-documents-page.md)
+- [Map Knowledge Article Fields to Generated Documents](https://docs.aisera.com/aisera-platform/map-knowledge-article-fields-to-generated-documents.md)
+- [Adding Metadata to Knowledge Articles](https://docs.aisera.com/aisera-platform/adding-metadata-to-knowledge-articles.md)
+- [Use Cases for Knowledge Article Generation](https://docs.aisera.com/aisera-platform/use-cases-for-knowledge-article-generation.md)
+- [Generative AI Learning](https://docs.aisera.com/aisera-platform/generative-ai-learning.md)
+- [Ticket Learning](https://docs.aisera.com/aisera-platform/generative-ai-learning/ticket-learning.md)
+- [Set Up Ticket Learning](https://docs.aisera.com/aisera-platform/generative-ai-learning/ticket-learning/set-up-ticket-learning.md)
+- [Analyzing Ticket Learning Output](https://docs.aisera.com/aisera-platform/generative-ai-learning/ticket-learning/analyzing-ticket-learning-output.md)
+- [Conversational Learning](https://docs.aisera.com/aisera-platform/generative-ai-learning/conversational-learning.md)
+- [Analytics](https://docs.aisera.com/aisera-platform/analytics/analytics.md)
+- [Pre-Built Analytics](https://docs.aisera.com/aisera-platform/analytics/analytics/pre-built-analytics.md)
+- [Using Analytics for Financial Planning/Operations](https://docs.aisera.com/aisera-platform/analytics/analytics/pre-built-analytics/using-analytics-for-financial-planning-operations.md)
+- [Custom Analytics](https://docs.aisera.com/aisera-platform/analytics/analytics/custom-analytics.md)
+- [How to Translate this Documentation](https://docs.aisera.com/aisera-platform/translation-in-browser/how-to-translate-this-documentation.md)
+- [Korean Example - AiseraGPT Page](https://docs.aisera.com/aisera-platform/translation-in-browser/how-to-translate-this-documentation/korean-example-aiseragpt-page.md): The page is a test translation of this English language page: https://docs.aisera.com/aiseragpt/how-to-set-up-an-aiseragpt-bot/configure-an-aiseragpt-bot.
+- [Hindi Example - AiseraGPT Page](https://docs.aisera.com/aisera-platform/translation-in-browser/how-to-translate-this-documentation/hindi-example-aiseragpt-page.md): The page is a test translation of this English language page: https://docs.aisera.com/aiseragpt/how-to-set-up-an-aiseragpt-bot/configure-an-aiseragpt-bot.
+- [Portuguese Example - AiseraGPT Page](https://docs.aisera.com/aisera-platform/translation-in-browser/how-to-translate-this-documentation/portuguese-example-aiseragpt-page.md)
+- [Japanese Example - AiseraGPT Page](https://docs.aisera.com/aisera-platform/translation-in-browser/how-to-translate-this-documentation/japanese-example-aiseragpt-page.md)
+
+## Agent Assist
+
+- [Overview of Aisera Agent Assist](https://docs.aisera.com/agent-assist/overview-of-aisera-agent-assist.md)
+- [How to Setup Agent Assist](https://docs.aisera.com/agent-assist/how-to-setup-agent-assist.md)
+- [Integrating Agent Assist with Zendesk](https://docs.aisera.com/agent-assist/how-to-setup-agent-assist/integrating-agent-assist-with-zendesk.md)
+- [Integrating Agent/Aisera Assist within ServiceNow's Service Operations Workspace](https://docs.aisera.com/agent-assist/how-to-setup-agent-assist/integrating-agent-aisera-assist-within-servicenows-service-operations-workspace.md)
+- [Adding the Ticket AI Agent Assist Channel](https://docs.aisera.com/agent-assist/adding-the-ticket-ai-agent-assist-channel.md)
+- [Agent Assist Widget Configuration](https://docs.aisera.com/agent-assist/adding-the-ticket-ai-agent-assist-channel/agent-assist-widget-configuration.md)
+- [ServiceNow Widget](https://docs.aisera.com/agent-assist/adding-the-ticket-ai-agent-assist-channel/agent-assist-widget-configuration/servicenow-widget.md)
+- [Event Studio Setup for Agent Assist](https://docs.aisera.com/agent-assist/event-studio-setup-for-agent-assist.md)
+- [Using the Agent Assist Window](https://docs.aisera.com/agent-assist/using-the-agent-assist-window.md)
+- [Add Permissions to Generate and Publish Individual KB Articles from Agent Assist](https://docs.aisera.com/agent-assist/add-permissions-to-generate-and-publish-individual-kb-articles-from-agent-assist.md)
+- [Single Ticket Knowledge Generation](https://docs.aisera.com/agent-assist/add-permissions-to-generate-and-publish-individual-kb-articles-from-agent-assist/single-ticket-knowledge-generation.md)
+- [Agent Assist Use Case Map](https://docs.aisera.com/agent-assist/agent-assist-use-case-map.md)
+- [Triage, Categorize and Escalate](https://docs.aisera.com/agent-assist/triage-categorize-and-escalate.md)
+- [Intelligent Swarming](https://docs.aisera.com/agent-assist/intelligent-swarming.md)
+- [User Insights - Sentiment Analysis](https://docs.aisera.com/agent-assist/user-insights-sentiment-analysis.md)
+- [Case Summarization](https://docs.aisera.com/agent-assist/case-summarization.md)
+- [Aisera Answer](https://docs.aisera.com/agent-assist/aisera-answer.md)
+- [Next Best Actions](https://docs.aisera.com/agent-assist/next-best-actions.md)
+- [Case Creation](https://docs.aisera.com/agent-assist/case-creation.md)
+- [Testing Your Agent Assist Bot](https://docs.aisera.com/agent-assist/testing-your-agent-assist-bot.md)
+
+## Aisera Assistant/Copilot
+
+- [Overview of the Aisera Assistant/Copilot](https://docs.aisera.com/aisera-copilot/overview-of-the-aisera-assistant-copilot.md)
+- [Using Aisera Assistant/Copilot](https://docs.aisera.com/aisera-copilot/using-aisera-assistant-copilot.md)
+- [Copilot Conversation History](https://docs.aisera.com/aisera-copilot/using-aisera-assistant-copilot/copilot-conversation-history.md)
+- [Access Documents and Templates](https://docs.aisera.com/aisera-copilot/using-aisera-assistant-copilot/access-documents-and-templates.md)
+- [Conversational CSV Analytics](https://docs.aisera.com/aisera-copilot/using-aisera-assistant-copilot/conversational-csv-analytics.md)
+- [Customize File Parameters Message](https://docs.aisera.com/aisera-copilot/using-aisera-assistant-copilot/customize-file-parameters-message.md)
+
+## AI Universal Bot
+
+- [AI Universal Bot](https://docs.aisera.com/ai-universal-bot/ai-universal-bot.md)
+- [Create a Universal Bot](https://docs.aisera.com/ai-universal-bot/ai-universal-bot/create-a-universal-bot.md)
+- [Multi-Language Support](https://docs.aisera.com/ai-universal-bot/ai-universal-bot/multi-language-support.md)
+- [Universal Bot Analytics](https://docs.aisera.com/ai-universal-bot/ai-universal-bot/universal-bot-analytics.md)
+
+## AI Voice
+
+- [AI Voice](https://docs.aisera.com/ai-voice/ai-voice.md)
+
+## AI Ops
+
+- [Overview of the AI Ops Application](https://docs.aisera.com/ai-ops/overview-of-the-ai-ops-application.md)
+- [Incident (Ticket) Clustering](https://docs.aisera.com/ai-ops/incident-ticket-clustering.md)
+- [Problem Detection](https://docs.aisera.com/ai-ops/problem-detection.md)
+- [Impact and Root Cause Analysis](https://docs.aisera.com/ai-ops/impact-and-root-cause-analysis.md)
+- [Change Risk Advisory](https://docs.aisera.com/ai-ops/change-risk-advisory.md)
+- [AI Ops Copilot for Infrastructure & Operations](https://docs.aisera.com/ai-ops/ai-ops-copilot-for-infrastructure-and-operations.md)
+
+## Application/Bot Use Cases
+
+- [Application/Bot Use Cases](https://docs.aisera.com/application-bot-use-cases/application-bot-use-cases.md)
+
+## Agent Assist Use Cases
+
+- [Agent Assist Use Cases](https://docs.aisera.com/agent-assist-use-cases/agent-assist-use-cases.md)
+
+## Agent Assistant/Copilot Use Cases
+
+- [Aisera Assistant/Copilot Use Cases](https://docs.aisera.com/agent-assistant-copilot-use-cases/aisera-assistant-copilot-use-cases.md)
+
+## Use Cases and Rules for Intentless Workflows
+
+- [Use Cases and Rules for Intentless Workflows](https://docs.aisera.com/use-cases-and-rules-for-intentless-workflows/use-cases-and-rules-for-intentless-workflows.md)
+
+## Use Cases for KB Article Generation
+
+- [Use Cases for KB Article Generation](https://docs.aisera.com/use-cases-for-kb-article-generation/use-cases-for-kb-article-generation.md)
+
+## Use Cases for Aisera Test Suite
+
+- [Use Cases for the Aisera Test Suite](https://docs.aisera.com/use-cases-for-aisera-test-suite/use-cases-for-the-aisera-test-suite.md)
+
+## Best Practices
+
+- [Best Practices for Integration](https://docs.aisera.com/workflow-best-practices/best-practices-for-integration.md)
+- [Best Practices for Ticket Ingestion](https://docs.aisera.com/workflow-best-practices/best-practices-for-ticket-ingestion.md)
+- [Best Practices for Knowledge Base Content](https://docs.aisera.com/workflow-best-practices/best-practices-for-knowledge-base-content.md)
+- [Workflow Best Practices](https://docs.aisera.com/workflow-best-practices/workflow-best-practices.md): Learn the best practices for creating workflows.
+- [Hyperflow Best Practices](https://docs.aisera.com/workflow-best-practices/hyperflow-best-practices.md): Best practices for designing, prompting, and building Hyperflows that are reliable, maintainable, and easy to debug.
+- [Hyperflow FAQ's](https://docs.aisera.com/workflow-best-practices/hyperflow-faqs.md): Answers to commonly asked questions about Hyperflows
+
+## APIs
+
+- [APIs](https://docs.aisera.com/apis/apis.md): Aisera offers a range of APIs designed for enhanced integration and customization of its applications.
+- [Ingestion APIs](https://docs.aisera.com/apis/apis/ingestion-apis.md): Send data directly into the Aisera platform from any external system that supports webhooks.
+- [Knowledge Articles](https://docs.aisera.com/apis/apis/ingestion-apis/knowledge-articles.md)
+- [Requests](https://docs.aisera.com/apis/apis/ingestion-apis/requests.md)
+- [Data Source Ingestion Monitoring API](https://docs.aisera.com/apis/apis/data-source-ingestion-monitoring-api.md)
+- [User Provisioning APIs](https://docs.aisera.com/apis/apis/user-provisioning-apis.md)
+
+## AI for ITSM
+
+- [AI for ITSM](https://docs.aisera.com/unify/ai-for-itsm.md)
+- [New Credentials for Confluence](https://docs.aisera.com/unify/ai-for-itsm/new-credentials-for-confluence.md)
+- [New Credentials for SharePoint](https://docs.aisera.com/unify/ai-for-itsm/new-credentials-for-sharepoint.md)
+- [Aisera Assistant User Guide](https://docs.aisera.com/unify/ai-for-itsm/aisera-assistant-user-guide.md)
+
+## Release Notes
+
+- [Aisera Product Release Notes - July 15, 2026](https://docs.aisera.com/product-release-notes/2026/aisera-product-release-notes-july-15-2026.md)
+- [Aisera Product Release Notes - June 16, 2026](https://docs.aisera.com/product-release-notes/2026/aisera-product-release-notes-june-16-2026.md): Review what's new and changed, and the fixes and limitations for the Aisera platform in the June 16, 2026 release.
+- [Aisera Product Release Notes - May 26, 2026](https://docs.aisera.com/product-release-notes/2026/aisera-product-release-notes-may-26-2026.md)
+- [Aisera Product Release Notes - April 22, 2026](https://docs.aisera.com/product-release-notes/2026/aisera-product-release-notes-april-22-2026.md)
+- [Aisera Product Release Notes - April 8, 2026](https://docs.aisera.com/product-release-notes/2026/aisera-product-release-notes-april-8-2026.md)
+- [Aisera Product Release notes - Mar 25, 2026](https://docs.aisera.com/product-release-notes/2026/aisera-product-release-notes-mar-25-2026.md)
+- [Aisera Product Release Notes - Mar 11, 2026](https://docs.aisera.com/product-release-notes/2026/aisera-product-release-notes-mar-11-2026.md)
+- [Aisera Product Release Notes - Feb 23, 2026](https://docs.aisera.com/product-release-notes/2026/aisera-product-release-notes-feb-23-2026.md)
+- [Aisera Product Release Notes - Jan 28, 2026](https://docs.aisera.com/product-release-notes/2026/aisera-product-release-notes-jan-28-2026.md)
+- [Bi-Weekly Product Release Notes - Jan 15, 2026](https://docs.aisera.com/product-release-notes/2026/bi-weekly-product-release-notes-jan-15-2026.md)
+- [Bi-Weekly Product Release Notes - Dec 16, 2025](https://docs.aisera.com/product-release-notes/2025/bi-weekly-product-release-notes-dec-16-2025.md)
+- [Bi-Weekly Product Release Notes - Nov 13, 2025](https://docs.aisera.com/product-release-notes/2025/bi-weekly-product-release-notes-nov-13-2025.md)
+- [Bi-Weekly Product Release Notes - Oct 29, 2025](https://docs.aisera.com/product-release-notes/2025/bi-weekly-product-release-notes-oct-29-2025.md)
+- [Bi-Weekly Product Release Notes - Oct 16, 2025](https://docs.aisera.com/product-release-notes/2025/bi-weekly-product-release-notes-oct-16-2025.md)
+- [Bi-Weekly Product Release Notes - Oct 1, 2025](https://docs.aisera.com/product-release-notes/2025/bi-weekly-product-release-notes-oct-1-2025.md)
+- [Bi-Weekly Product Release Notes - Sept 10, 2025](https://docs.aisera.com/product-release-notes/2025/bi-weekly-product-release-notes-sept-10-2025.md)
+- [Bi-Weekly Product Release Notes - Aug 22, 2025](https://docs.aisera.com/product-release-notes/2025/bi-weekly-product-release-notes-aug-22-2025.md)
+- [Bi-Weekly Product Release Notes - Aug 7, 2025](https://docs.aisera.com/product-release-notes/2025/bi-weekly-product-release-notes-aug-7-2025.md)
+- [Bi-Weekly Product Release Notes - July 25, 2025](https://docs.aisera.com/product-release-notes/2025/bi-weekly-product-release-notes-july-25-2025.md)
+- [Bi-Weekly Product Release Notes - July 9, 2025](https://docs.aisera.com/product-release-notes/2025/bi-weekly-product-release-notes-july-9-2025.md)
+- [Bi-Weekly Product Release Notes - June 19, 2025](https://docs.aisera.com/product-release-notes/2025/bi-weekly-product-release-notes-june-19-2025.md)
+- [Bi-Weekly Product Release Notes - June 4, 2025](https://docs.aisera.com/product-release-notes/2025/bi-weekly-product-release-notes-june-4-2025.md)
+- [Bi-Weekly Product Release Notes - May 21, 2025](https://docs.aisera.com/product-release-notes/2025/bi-weekly-product-release-notes-may-21-2025.md)
+- [Bi-Weekly Product Release Notes - May 7, 2025](https://docs.aisera.com/product-release-notes/2025/bi-weekly-product-release-notes-may-7-2025.md)
+- [Bi-Weekly Product Release Notes - Apr 23, 2025](https://docs.aisera.com/product-release-notes/2025/bi-weekly-product-release-notes-apr-23-2025.md)
+- [Bi-Weekly Product Release Notes - Apr 2, 2025](https://docs.aisera.com/product-release-notes/2025/bi-weekly-product-release-notes-apr-2-2025.md)
+- [Bi-Weekly Product Release Notes - Mar 12, 2025](https://docs.aisera.com/product-release-notes/2025/bi-weekly-product-release-notes-mar-12-2025.md)
+- [Bi-Weekly Product Release Notes - Feb 26, 2025](https://docs.aisera.com/product-release-notes/2025/bi-weekly-product-release-notes-feb-26-2025.md)
+- [Bi-Weekly Product Release Notes - Feb 12, 2025](https://docs.aisera.com/product-release-notes/2025/bi-weekly-product-release-notes-feb-12-2025.md)
+- [Bi-Weekly Product Release Notes - Jan 29, 2025](https://docs.aisera.com/product-release-notes/2025/bi-weekly-product-release-notes-jan-29-2025.md)
+- [Bi-Weekly Product Release Notes - Jan 15, 2025](https://docs.aisera.com/product-release-notes/2025/bi-weekly-product-release-notes-jan-15-2025.md)
+- [Bi-Weekly Product Release Notes - Dec 4, 2024](https://docs.aisera.com/product-release-notes/2024/bi-weekly-product-release-notes-dec-4-2024.md)
+- [Bi-Weekly Product Release Notes - Nov 20, 2024](https://docs.aisera.com/product-release-notes/2024/bi-weekly-product-release-notes-nov-20-2024.md)
+- [Bi-Weekly Product Release Notes - Nov 6, 2024](https://docs.aisera.com/product-release-notes/2024/bi-weekly-product-release-notes-nov-6-2024.md)
+- [Bi-Weekly Product Release Notes - Oct 30, 2024](https://docs.aisera.com/product-release-notes/2024/bi-weekly-product-release-notes-oct-30-2024.md)
+- [Bi-Weekly Product Release Notes - Oct 11, 2024](https://docs.aisera.com/product-release-notes/2024/bi-weekly-product-release-notes-oct-11-2024.md)
+- [Special Bug Fix Product Release Notes - Sept 27, 2024](https://docs.aisera.com/product-release-notes/2024/special-bug-fix-product-release-notes-sept-27-2024.md)
+- [Bi-Weekly Product Release Notes - Sept 20, 2024](https://docs.aisera.com/product-release-notes/2024/bi-weekly-product-release-notes-sept-20-2024.md)
+- [Bi-Weekly Product Release Notes - Sept 6, 2024](https://docs.aisera.com/product-release-notes/2024/bi-weekly-product-release-notes-sept-6-2024.md)
+- [Bi-Weekly Product Release Notes - August 16, 2024](https://docs.aisera.com/product-release-notes/2024/bi-weekly-product-release-notes-august-16-2024.md)
+- [Bi-Weekly Product Release Notes - August 2, 2024](https://docs.aisera.com/product-release-notes/2024/bi-weekly-product-release-notes-august-2-2024.md)
+- [Mid-Monthly Product Release 2 - July 9, 2024](https://docs.aisera.com/product-release-notes/mid-monthly-product-release-2-july-9-2024.md)
+- [Mid-Monthly Product Release 1 - June 7](https://docs.aisera.com/product-release-notes/mid-monthly-product-release-1-june-7.md)
+- [Mid-Monthly Product Release - May 23](https://docs.aisera.com/product-release-notes/mid-monthly-product-release-may-23.md)
+- [Mid-Monthly Product Release - Apr 26](https://docs.aisera.com/product-release-notes/mid-monthly-product-release-apr-26.md): This page provides an overview of the new features and enhancements that are being introduced in this Release. Release Date: April 26, 2024

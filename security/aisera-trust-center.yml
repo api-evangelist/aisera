@@ -1,0 +1,27 @@
+generated: '2026-07-17'
+method: searched
+source: https://www.automationanywhere.com/products/security
+probe: false
+url: https://trust.aisera.com/
+url_note: >-
+  trust.aisera.com resolves and is live but returns HTTP 403 to automated
+  fetches (bot protection). Aisera's security-and-compliance page 301-redirects
+  to the Automation Anywhere security page (acquirer); certifications below are
+  captured from that canonical destination.
+certifications:
+  - SOC 1 Type 2
+  - SOC 2 Type 2
+  - ISO 27001
+  - ISO 22301
+  - HITRUST
+  - GDPR
+  - FIPS-140
+compliance_portal: https://www.automationanywhere.com/compliance-portal
+security_page: https://www.automationanywhere.com/products/security
+platform_security_docs: https://docs.aisera.com/aisera-platform/tenant-setup/security-and-privacy-traps.md
+evidence:
+  - source: https://www.automationanywhere.com/products/security
+    keywords: [soc 1 type 2, soc 2 type 2, iso 27001, iso 22301, hitrust, fips-140]
+  - source: https://trust.aisera.com/
+    keywords: [trust center]
+    status: 403

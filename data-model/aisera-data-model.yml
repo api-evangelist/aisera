@@ -1,0 +1,66 @@
+generated: '2026-07-17'
+method: searched
+source: https://docs.aisera.com/overview-of-aisera/getting-started-guide/glossary-of-aisera-terms.md
+note: >-
+  Entity graph reconstructed from the Aisera documentation glossary and API
+  reference (no OpenAPI $ref graph is published). Relationships reflect documented
+  platform concepts, not a machine-readable schema.
+entities:
+  - name: Tenant
+    description: Top-level customer environment; owns all configuration and data.
+    relationships:
+      - {type: has_many, target: Application, via: apps}
+      - {type: has_many, target: DataSource, via: datasourceId}
+      - {type: has_many, target: Integration, via: integrations}
+      - {type: has_many, target: Channel, via: channels}
+      - {type: has_many, target: User, via: users}
+  - name: Application
+    aka: Bot / AiseraGPT App
+    description: A configured bot/assistant within a tenant.
+    relationships:
+      - {type: belongs_to, target: Tenant, via: tenantId}
+      - {type: has_many, target: DataSource, via: data_sources}
+      - {type: has_many, target: Channel, via: channels}
+      - {type: has_many, target: Workflow, via: workflows}
+  - name: Integration
+    description: Authenticated connection to a third-party system (credentials + connector).
+    relationships:
+      - {type: belongs_to, target: Tenant, via: tenantId}
+      - {type: has_many, target: DataSource, via: data_sources}
+  - name: DataSource
+    description: A configured source of ingested data/knowledge, backed by an Integration/connector.
+    relationships:
+      - {type: belongs_to, target: Integration, via: integration}
+      - {type: has_many, target: KnowledgeArticle, via: kb}
+      - {type: has_many, target: IngestionJob, via: ingestionJobExecutionId}
+  - name: KnowledgeArticle
+    aka: KBA
+    description: Ingested/generated knowledge base article served to users.
+    relationships:
+      - {type: belongs_to, target: DataSource, via: datasourceId}
+  - name: Request
+    aka: Ticket
+    description: A user request/ticket handled or created by the platform.
+    relationships:
+      - {type: belongs_to, target: Application, via: bot}
+      - {type: belongs_to, target: User, via: user}
+  - name: IngestionJob
+    description: An ingestion pipeline execution monitored via the Data Source Ingestion Monitoring API.
+    fields: [ingestionJobExecutionId, ingestionPipelineStatus, jobName, kbIngestionCount, kbIngestionfailures]
+    relationships:
+      - {type: belongs_to, target: DataSource, via: dataSourceId}
+  - name: Workflow
+    aka: Hyperflow
+    description: Automation flow built in AI Workflow Studio, triggered conversationally or by Event Studio.
+    relationships:
+      - {type: belongs_to, target: Application, via: bot}
+  - name: User
+    description: Platform user provisioned via the SCIM-style User Provisioning API.
+    fields: [username, firstName, lastName, email, role]
+    relationships:
+      - {type: belongs_to, target: Tenant, via: tenantId}
+  - name: Channel
+    description: A delivery surface (Webchat, Slack, MS Teams, Email, IVR, etc.).
+    relationships:
+      - {type: belongs_to, target: Application, via: bot}
+render: null

@@ -1,0 +1,23 @@
+generated: '2026-07-17'
+method: searched
+source: https://docs.aisera.com/product-release-notes/2026/aisera-product-release-notes-july-15-2026.md
+versioning:
+  scheme: release-train
+  cadence: bi-weekly
+  current: '2026-07-15'
+  docs: https://docs.aisera.com/product-release-notes
+deprecation:
+  policy_url: https://docs.aisera.com/aisera-platform/llm-operations/understanding-llm-capabilities/llm-lifecycle/bot-deprecation/bot-deprecation-guidelines.md
+  scope: >-
+    Aisera documents an LLM/bot lifecycle with explicit bot-deprecation
+    guidelines. There is no published RFC 8594 Sunset/Deprecation HTTP-header
+    contract for the inbound APIs.
+  sunset_header: false
+status_page: https://status.aisera.com
+sla:
+  documented: false
+  note: No public uptime SLA target is published in the developer docs.
+deprecated_operations: []
+recent_removals:
+  - release: '2026-07-15'
+    item: "Removed the 'Sanitize Hyperflow Prompt' setting (platform now auto-detects HTML and converts to Markdown)."
