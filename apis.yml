@@ -41,6 +41,17 @@ tags:
 - Company
 - Agentic AI
 - Conversational AI
+- ITSM
+- Customer Service
+- Enterprise Search
+- AI Copilot
+- Knowledge-Management
+- Workflow-Automation
+- Large Language Models
+tags_raw:
+- Company
+- Agentic AI
+- Conversational AI
 - IT Service Management
 - Customer Service
 - Enterprise Search
@@ -62,6 +73,10 @@ apis:
   humanURL: https://docs.aisera.com/apis/apis/ingestion-apis.md
   baseURL: https://tenant.api.aisera.cloud
   tags:
+  - Ingestion
+  - Knowledge
+  - Webhook
+  tags_raw:
   - Ingestion
   - Knowledge
   - Webhooks
