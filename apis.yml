@@ -52,7 +52,7 @@ tags:
 - Company
 - Agentic AI
 - Conversational AI
-- ITSM
+- IT Service Management
 - Customer Service
 - Enterprise Search
 - AI Copilot
@@ -139,6 +139,11 @@ apis:
   - type: Documentation
     url: https://docs.aisera.com/apis/apis/conversation-api-and-websocket.md
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/automation-anywhere/
+  name: Automation Anywhere
+  x-relationship: acquired
+  x-evidence: "Aisera was acquired by Automation Anywhere."
 - type: Website
   url: https://aisera.com
 - type: DeveloperPortal
