@@ -48,6 +48,9 @@ specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-17'
 image: https://aisera.com/wp-content/uploads/2025/06/homepage-social-card.png
+x-docs-platform: gitbook
+x-docs-platform-confidence: high
+x-docs-platform-checked: 2026-09-17
 tags:
 - Company
 - Agentic AI
@@ -58,7 +61,7 @@ tags:
 - AI Copilot
 - Knowledge-Management
 - Workflow-Automation
-- Large Language Models
+- LLM
 tags_raw:
 - Company
 - Agentic AI
@@ -132,6 +135,10 @@ apis:
   humanURL: https://docs.aisera.com/apis/apis/conversation-api-and-websocket.md
   baseURL: https://tenant.api.aisera.cloud
   tags:
+  - Conversations
+  - WebSocket
+  - Workflows
+  tags_raw:
   - Conversation
   - WebSocket
   - Workflows
